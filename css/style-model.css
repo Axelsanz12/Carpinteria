@@ -94,3 +94,69 @@ body {
   max-height: 300px;
   overflow-y: auto;
 }
+
+
+p {
+    color: #000;
+}
+
+
+/* Estilos generales para el contenedor de productos */
+.product-gallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor que permite el desplazamiento horizontal */
+.product-container {
+    display: flex;
+    overflow-x: auto;  /* Permite el desplazamiento horizontal */
+    gap: 20px;         /* Espacio entre productos */
+    padding: 20px 0;   /* Espaciado superior e inferior */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+/* Estilos individuales para cada producto */
+.product-item {
+    width: 200px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para los botones de desplazamiento */
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.scroll-left {
+    left: 10px;
+}
+
+.scroll-right {
+    right: 10px;
+}
+
+section {
+    color: #ddd;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #f0f0f0;
+    text-align: center;
+    margin-bottom: 20px;
+}

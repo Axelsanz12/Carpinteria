@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Espejo redondo",
+        "price": 247460,
+        "image": "../imgtienda/espejo.png"
+    },
+    {
+        "id": 2,
+        "name": "Espejo de pie",
+        "price": 247460,
+        "image": "../imgtienda/espejo2.png"
+    },
+    {
+        "id": 3,
+        "name": "Perchero Red",
+        "price": 247460,
+        "image": "../imgtienda/perchero1.png"
+    },
+    {
+        "id": 4,
+        "name": "Sillón Gervasoni 1C",
+        "price": 250460,
+        "image": "../imgtienda/sillon1.png"
+    },
+    {
+        "id": 5,
+        "name": "Sillón Alexia 2 cuerpos",
+        "price": 247460,
+        "image": "../imgtienda/sillon2.png"
+    },
+    {
+        "id": 6,
+        "name": "Sillón Alexia 1 cuerpo",
+        "price": 270000,
+        "image": "../imgtienda/silla3.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Copas",
+        "price": 10000,
+        "image": "../imgtienda/copas.png"
+    },
+    {
+        "id": 8,
+        "name": "Muelita",
+        "price": 247460,
+        "image": "../imgtienda/muelita.png"
+    },
+    {
+        "id": 9,
+        "name": "Plato Borde Dorado",
+        "price": 247460,
+        "image": "../imgtienda/plato1.png"
+    },
+    {
+        "id": 10,
+        "name": "Plato Pasta",
+        "price": 247460,
+        "image": "../imgtienda/plato3.png"
+    },
+    {
+        "id": 11,
+        "name": "Plato Postre",
+        "price": 247460,
+        "image": "../imgtienda/postre1.png"
+    }
+    
+  ]
+  
