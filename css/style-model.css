@@ -1,0 +1,170 @@
+
+
+
+body {
+    background-color: rgb(5, 5, 5);
+    color: rgb(8, 7, 7);
+}
+
+.navbar a {
+    color: black;
+    text-align: right;
+   width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item {
+    padding: 0px;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    color: rgb(251, 251, 252);
+}
+
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link {
+    color: #555;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.nav-link.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.tienda {
+    margin-top: 40px;
+}
+
+.product-card {
+    background-color: #f0f0f0ce;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-price del {
+    font-size: 14px;
+    color: #999;
+}
+#carrito {
+    position: fixed;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}
+
+#cartItems {
+    max-height: 300px;
+    overflow-y: auto; /* Permite desplazamiento si el carrito es muy largo */
+}
+
+#clearCart, #proceedToPayment {
+    margin-top: 10px;
+}
+
+
+p {
+    color: #000;
+}
+
+
+/* Estilos generales para el contenedor de productos */
+.product-gallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedor que permite el desplazamiento horizontal */
+.product-container {
+    display: flex;
+    overflow-x: auto;  /* Permite el desplazamiento horizontal */
+    gap: 20px;         /* Espacio entre productos */
+    padding: 20px 0;   /* Espaciado superior e inferior */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+/* Estilos individuales para cada producto */
+.product-item {
+    width: 200px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para los botones de desplazamiento */
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.scroll-left {
+    left: 10px;
+}
+
+.scroll-right {
+    right: 10px;
+}
+
+section {
+    color: #ddd;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #f0f0f0;
+    text-align: center;
+    margin-bottom: 20px;
+}

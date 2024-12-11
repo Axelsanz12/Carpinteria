@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style-formulario.css">
+</head>
+<body>
+    
+    <h1>complete la informacion</h1>
+    <form action="" method="post">
+                
+        <fieldset>
+                <legend><b></b>DATOS PERSONALES</legend>
+                
+                <label for="nombre">Nombre [*]</label>
+                <input type="text" id="" name="" size="10" maxlength="15" required> 
+                <label for="apellido">Apellido [*]</label>
+                <input type="text" id="" name="" size="10" maxlength="15" required> <br><br> 
+                <label for="dni">DNI</label>
+                <input type="number" name="dni" id="" required>
+                <label for="tram_dni">numero de tramite</label>
+                <input type="password" name="tram_dni" id="" required>
+                <label for="fec_nac">fecha de nacimiento</label>
+                <input type="date" name="fec_nac" id="" required> <br><br>
+                <label for="estatura">estatura</label>
+                    <label for="corre">E-mail</label>
+                    <input type="email" name="correo" id="">
+                    <label for="adjunto">Adjuntar foto</label>
+                    <input type="file" name="adjunto" id="">
+                </fieldset><br><br>        
+                <br><br>
+                <label for="comentarios">escriba su consulta</label> <br>
+                 <textarea name="COMENTARIO" id="" cols="30" rows="10" placeholder="escriba aqui su consulta max(300 caracteres) "></textarea>   
+                <br><br>   
+                 <label for="tunos">Seleccione el horario de contacto</label>
+                    <select name="Turnos" id="" size="1">
+                           <option value="1">MAÑANA</option> 
+                           <option value="2">TARDE</option> 
+                           <option value="3">NOCHE</option> 
+                    </select>
+                    <br><br>
+                     <label for="rb">zona de residencia</label>
+                     <input type="radio" name="rb" id="" value="">CABA
+                     <input type="radio" name="rb" id="" value="">Gran Bs .As
+                     <input type="radio" name="rb" id="" value="">Provincia de buenos aires
+                     <input type="radio" name="rb" id="" value="">Interior del pais 
+                     <br><br>
+                     <input type="checkbox" name="condiciones" id="" required>
+                     Acepto los terminos y condiciones <br><br>
+                     <input type="submit" value="enviar datos">
+                    <input type="reset" value="borrar">
+    ></form>
+
+
+
+
+</body>
+</html>
